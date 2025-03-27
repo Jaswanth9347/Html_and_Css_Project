@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #121212; 
+  z-index: 1050; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  height: 85px; 
+}
+
+.list-item{
+    display: inline-block;
+    list-style:none;
+    font-size: 18px;
+    padding-top: 12px;
+   
+}
+
+.list-item a{
+    text-decoration: none;
+    padding: 0px 20px;
+}
+.logo{
+    color: white;
+    font-weight: bolder;
+}
+
+
+/* this is for the drop  down menu from user icon */
+
+.dropdown-hover {
+    position: absolute;
+    top: 57px;
+    right:15px;
+    background-color: #121212;
+    color: white;
+    padding: 19px;
+    padding-bottom: 9px;
+    width: 338px;
+    border-radius: 3px;
+    border: 1px solid white;
+    display: none;
+    z-index: 1000;
+    
+  }
+
+  .dropdown-hover strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .dropdown-hover p {
+    opacity: 0.5;
+   font-size: 16px;
+  }
+
+  .list-item:hover .dropdown-hover {
+    display: block;
+  }
+ .line{
+    border-width: 1px;
+    opacity:0.7;
+ }
+
+
+
+ 
