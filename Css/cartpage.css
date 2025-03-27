@@ -390,7 +390,7 @@ hr{
     }
   }
   
-  
+/*   media queries for the responsive-ness of the website */
   @media (max-width: 768px) {
     header ul {
       flex-direction: column;
