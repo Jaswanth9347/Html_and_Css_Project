@@ -16,7 +16,6 @@ body {
     overflow-y: auto;
 }
 
-
 .cart-icon {
     position: relative;
     background-color: red;
@@ -97,7 +96,6 @@ body {
     border: 1px solid #444;
     padding: 5px;
 }
-
 
 .order-summary {
     flex: 1;
